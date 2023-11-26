@@ -1,7 +1,7 @@
 import React from "react";
  import ListingCard from "./ListingCard";
 
-function ListingsContainer({lists,onItemDelete}) {
+function ListingsContainer({lists,onItemDelete,onSearch}) {
   return (
     <main>
       <ul className="cards">
